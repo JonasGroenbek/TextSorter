@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f2bf2f-e0a7-4f88-8dc3-92fe3dd1a96e" name="Default Changelist" comment="" />
+    <list default="true" id="a7f2bf2f-e0a7-4f88-8dc3-92fe3dd1a96e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/jonasgroenbek/TrieSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextSorter/com/jonasgroenbek/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jonasgroenbek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jonasgroenbek/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +24,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XptJuHGacpuwswzcQrIQ6CZmW1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BankTest" />
@@ -35,7 +52,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jonasgroenbek.HeapSort" />
+      <module name="TextSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jonasgroenbek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jonasgroenbek.Main" />
       <module name="TextSorter" />
@@ -59,10 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrieSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jonasgroenbek.TrieSort" />
+      <module name="TextSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jonasgroenbek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TrieSort" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -83,12 +128,16 @@
       <workItem from="1582530193632" duration="54000" />
       <workItem from="1582665273044" duration="1176000" />
       <workItem from="1582704328568" duration="9000" />
-      <workItem from="1582876539371" duration="27792000" />
+      <workItem from="1582876539371" duration="29869000" />
+      <workItem from="1582962074067" duration="41882000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="200" width="848" height="677" key="#Project_Structure" timestamp="1581758182835">
@@ -104,10 +153,16 @@
     </state>
     <state x="2338" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581758850190" />
     <state x="470" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582476559811" />
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582895627775">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="663" y="357" width="650" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582991431098">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="663" y="357" width="650" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.3773.1053@67.27.3773.1053" timestamp="1582991431098" />
+    <state x="1920" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1583011436034">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582895627775" />
+    <state x="801" y="265" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582970779783" />
+    <state x="1920" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.3773.1053@67.27.3773.1053" timestamp="1583011436034" />
     <state x="744" y="423" width="488" height="259" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582882800963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -116,60 +171,72 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582530245699" />
-    <state width="1807" height="285" key="GridCell.Tab.0.bottom" timestamp="1582917098044">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom" timestamp="1583018417103">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="433" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581857404512" />
-    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582917098044" />
-    <state width="1807" height="433" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083341" />
-    <state width="1807" height="285" key="GridCell.Tab.0.center" timestamp="1582917098044">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="230" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941331" />
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582984201376" />
+    <state width="1807" height="285" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583018417103" />
+    <state width="1807" height="285" key="GridCell.Tab.0.center" timestamp="1583018417103">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="433" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581857404512" />
-    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582917098044" />
-    <state width="1807" height="433" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083340" />
-    <state width="1807" height="285" key="GridCell.Tab.0.left" timestamp="1582917098044">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="230" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941331" />
+    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582984201369" />
+    <state width="1807" height="285" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583018417103" />
+    <state width="1807" height="285" key="GridCell.Tab.0.left" timestamp="1583018417102">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="433" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581857404512" />
-    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582917098044" />
-    <state width="1807" height="433" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083339" />
-    <state width="1807" height="285" key="GridCell.Tab.0.right" timestamp="1582917098044">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="230" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941331" />
+    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582984201365" />
+    <state width="1807" height="285" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583018417102" />
+    <state width="1807" height="285" key="GridCell.Tab.0.right" timestamp="1583018417103">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state width="1807" height="433" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581857404512" />
-    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582917098044" />
-    <state width="1807" height="433" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083341" />
-    <state width="1807" height="230" key="GridCell.Tab.1.bottom" timestamp="1582916129104">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="230" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941331" />
+    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582984201372" />
+    <state width="1807" height="285" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583018417103" />
+    <state width="1807" height="365" key="GridCell.Tab.1.bottom" timestamp="1583018365484">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
-    <state width="1807" height="230" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582916129104" />
+    <state width="1807" height="230" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941332" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083335" />
-    <state width="1807" height="230" key="GridCell.Tab.1.center" timestamp="1582916129104">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="365" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1583018365484" />
+    <state width="1807" height="365" key="GridCell.Tab.1.center" timestamp="1583018365484">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
-    <state width="1807" height="230" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582916129104" />
+    <state width="1807" height="230" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941332" />
     <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083335" />
-    <state width="1807" height="230" key="GridCell.Tab.1.left" timestamp="1582916129104">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="365" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1583018365484" />
+    <state width="1807" height="365" key="GridCell.Tab.1.left" timestamp="1583018365483">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
-    <state width="1807" height="230" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582916129104" />
+    <state width="1807" height="230" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941332" />
     <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083335" />
-    <state width="1807" height="230" key="GridCell.Tab.1.right" timestamp="1582916129104">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="365" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1583018365483" />
+    <state width="1807" height="365" key="GridCell.Tab.1.right" timestamp="1583018365484">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
-    <state width="1807" height="230" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582916129104" />
+    <state width="1807" height="230" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582922941332" />
     <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581933083335" />
+    <state width="1807" height="365" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1583018365484" />
     <state x="500" y="197" width="1024" height="845" key="SettingsEditor" timestamp="1582882974239">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2369" y="174" width="1024" height="845" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581755495895" />
     <state x="500" y="197" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582882974239" />
-    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1582530193973">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583001388022">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.3773.1053@67.27.3773.1053" timestamp="1583001388022" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1582962077759">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2536" y="366" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581754799622" />
-    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582530193973" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582962077759" />
     <state x="2552" y="435" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581769473491">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -190,9 +257,47 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582909294283" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582906459001">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1266" y="257" width="1369" height="678" key="search.everywhere.popup" timestamp="1583012925080">
+      <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582906459001" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582962754900" />
+    <state x="1266" y="257" width="1369" height="678" key="search.everywhere.popup/67.27.3773.1053@67.27.3773.1053" timestamp="1583012925080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/HeapSort.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/MergeSort.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/MergeSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/MergeSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/TrieSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jonasgroenbek/TrieSort.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
