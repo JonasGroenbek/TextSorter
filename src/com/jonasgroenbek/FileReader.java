@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class FileReader {
 
-    public static List readFile(Path path){
+    public static List readFile(Path path) {
         try {
             return Files.lines(path)
                     .map(str -> str
@@ -20,7 +20,7 @@ public class FileReader {
                     .flatMap(Arrays::stream)
                     .filter(word -> !word.isBlank())
                     .collect(Collectors.toList());
-        } catch(IOException e){
+        } catch (IOException e) {
             System.out.println(e.getStackTrace());
             System.exit(0);
         }

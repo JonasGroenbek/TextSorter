@@ -1,19 +1,18 @@
 package com.jonasgroenbek;
 
 import java.util.Comparator;
-import java.util.List;
 
 public class SelectionSort implements TextSorter {
 
     @Override
     public String[] sort(Comparator<String> comparator, String[] data) {
-        for(int i = 0; i < data.length - 1; i++){
+        for (int i = 0; i < data.length - 1; i++) {
             String smallest = data[i];
             int replacement = i;
-            for(int j = i; j < data.length - 1; j++) {
-                if (comparator.compare(smallest, data[j + 1]) == 1){
+            for (int j = i; j < data.length - 1; j++) {
+                if (comparator.compare(smallest, data[j + 1]) == 1) {
                     smallest = data[j + 1];
-                    replacement = j+1;
+                    replacement = j + 1;
                 }
             }
             String temp = data[i];
