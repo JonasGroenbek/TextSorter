@@ -15,6 +15,6 @@ Using Shakespeares complete works the algorithms ran in the times below:
 - InsertionSort - > 2 hours
 - Heap Sort     - ~1800ms
 - Merge Sort    - ~800ms
-- Trie Sort     - ~500ms (I am quite proud of this one, since it does not resemble the more popular implementations)
+- Trie Sort     - ~500ms (Quite proud of this one, it doesn't resemble popular implementations and I find it very logical )
 
 [Source code](https://github.com/JonasGroenbek/TextSorter/tree/master/src/com/jonasgroenbek) 
